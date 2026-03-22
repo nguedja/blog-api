@@ -99,6 +99,42 @@ Filtrer par date :
 
 GET /api/articles?date=2026
 
+# Documentation API avec Swagger
+
+La documentation des endpoints de l’API est disponible grâce à Swagger UI.
+
+Swagger permet de visualiser toutes les routes disponibles et de tester 
+directement les requêtes depuis le navigateur.
+
+Après avoir lancé le serveur avec :
+
+node app.js
+
+La documentation Swagger est accessible à l’adresse suivante :
+
+http://localhost:3000/api-docs
+
+Cette interface permet :
+
+- De visualiser tous les endpoints disponibles
+- De tester les requêtes (POST, GET, PUT, DELETE)
+- De vérifier les paramètres nécessaires pour chaque route
+- De tester rapidement les fonctionnalités de l’API
+
+# Exemple d’utilisation de Swagger
+
+1. Lancer le serveur :
+   
+   node app.js
+
+2. Ouvrir un navigateur
+
+3. Accéder à l’adresse :
+
+   http://localhost:3000/api-docs
+
+4. Tester les routes directement depuis l’interface Swagger.
+
 # STRUCTURE DU PROJET
 
 blog-api/
